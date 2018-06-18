@@ -1,0 +1,22 @@
+@import '../shared/styles/variables';
+
+.sidebar {
+  background-color: $color-sidebar-bg;
+  border-right: 1px solid $hl-md;
+  bottom: 0;
+  color: $color-sidebar-font;
+  font-size: .8rem;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 20px 0;
+  position: fixed;
+  top: $navbar-height;
+  z-index: 1000;
+}
+
+.main {
+  background-color: $color-main-bg;
+  color: $color-main-font;
+  padding: 0;
+}

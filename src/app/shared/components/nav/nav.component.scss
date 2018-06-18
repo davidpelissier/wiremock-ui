@@ -1,0 +1,26 @@
+@import '../../../shared/styles/variables';
+
+.navbar {
+  background-color: $navbar-color;
+  padding: 0;
+
+  &-brand {
+    padding: 0;
+    margin-right: 4em;
+  }
+}
+
+.brand-first-part {
+  transform: skewX(-20deg);
+
+  &-bg {
+    background-color: #fff;
+    display: inline-block;
+    padding: 16px 16px 16px 64px;
+    transform: skewX(20deg) translateX(-32px);
+  }
+}
+
+.brand-second-part {
+  transform: translateX(-16px);
+}

@@ -1,0 +1,88 @@
+@import '../../shared/styles/variables';
+
+.nav {
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.nav-link {
+  border-left: 2px solid transparent;
+  border-radius: 0;
+  color: $hl-sidebar;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: $hl-xs;
+  }
+
+  &-active {
+    background-color: $hl-xs;
+    color: $color-sidebar-font;
+  }
+
+  &-get {
+    border-color: $color-surprise;
+  }
+  &-post {
+    border-color: $color-success;
+  }
+  &-put {
+    border-color: $color-warning;
+  }
+  &-patch {
+    border-color: $color-notice;
+  }
+  &-delete {
+    border-color: $color-danger;
+  }
+  &-options {
+    border-color: $color-info;
+  }
+  &-head {
+    border-color: $color-boring;
+  }
+}
+
+.badge {
+  font-weight: normal;
+  text-align: left;
+  width: 6em;
+}
+
+.badge-get {
+  color: $color-surprise;
+}
+
+.badge-post {
+  color: $color-success;
+}
+
+.badge-put {
+  color: $color-warning;
+}
+
+.badge-patch {
+  color: $color-notice;
+}
+
+.badge-delete {
+  color: $color-danger;
+}
+
+.badge-options {
+  color: $color-info;
+}
+
+.badge-head {
+  color: $color-boring;
+}

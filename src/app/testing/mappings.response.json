@@ -1,0 +1,137 @@
+{
+  "mappings": [
+    {
+      "id": "56b6e887-4b9d-4ccb-938d-2cf2ad32edea",
+      "request": {
+        "urlPath": "/def",
+        "method": "OPTIONS"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Allow": "GET, HEAD, OPTIONS, POST",
+          "Access-Control-Allow-Headers": "authorization",
+          "Access-Control-Allow-Methods": "OPTIONS, GET",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "close",
+          "Accept": "*/*",
+          "Content-Type": "text/plain"
+        }
+      },
+      "uuid": "56b6e887-4b9d-4ccb-938d-2cf2ad32edea",
+      "priority": 1
+    },
+    {
+      "id": "69928c1c-f19c-4b8f-acf9-370f05848a77",
+      "request": {
+        "urlPath": "/jkl",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"number\":0,\"size\":8,\"totalPages\":1,\"numberOfElements\":2,\"totalElements\":2,\"first\":true,\"last\":true,\"content\":[{\"id\":\"59b13f31fb7b7dcdeb0becfe\",\"ebaId\":\"U6J09R44\",\"name\":\"Linxo\",\"comments\":\"\",\"contact\":{\"email\":\"contact@linxo.com\",\"phoneNumber\":\"0102030405\",\"city\":\"PARIS\",\"addressLines\":[\"random line\",\"road 10\"],\"postCode\":\"4321\",\"country\":\"France\"},\"state\":{\"status\":\"ACTIVE\",\"monitored\":false},\"accreditations\":[\"AIS\",\"CIS\"],\"webSite\":\"abc.com\",\"nationalAccreditationData\":{\"nationalId\":\"abcid\",\"competentAuthorityName\":\"French registry\",\"competentAuthorityCountry\":\"France\",\"registrationDate\":\"2018-03-29\",\"accreditations\":[\"AIS\",\"CIS\"]},\"physicalContacts\":[{\"contactType\":\"BUSINESS_CONTACT\",\"name\":\"Doe\",\"firstName\":\"John\",\"jobTitle\":\"CEO\",\"email\":\"john.doe@solidarity.com\",\"phoneNumber\":\"0123456789\"},{\"contactType\":\"TECHNICAL_CONTACT\",\"name\":\"forest\",\"firstName\":\"Jim\",\"jobTitle\":\"CTO\",\"email\":\"jim.forest@solidarity.com\",\"phoneNumber\":\"0123456789\"}]},{\"id\":\"59b13f31fb7b7dceffsb0becfe\",\"ebaId\":\"657435234\",\"name\":\"Bankin\",\"comments\":\"\",\"contact\":{\"email\":\"contact@bankin.com\",\"phoneNumber\":\"0102030405\",\"city\":\"PARIS\",\"addressLines\":[\"random line\",\"road 10\"],\"postCode\":\"4321\",\"country\":\"France\"},\"state\":{\"status\":\"ACTIVE\",\"monitored\":false},\"accreditations\":[\"AIS\",\"CIS\"],\"webSite\":\"abc.com\",\"nationalAccreditationData\":{\"nationalId\":\"abcid\",\"competentAuthorityName\":\"French registry\",\"competentAuthorityCountry\":\"France\",\"registrationDate\":\"2018-03-29\",\"accreditations\":[\"AIS\",\"CIS\"]},\"physicalContacts\":[{\"contactType\":\"BUSINESS_CONTACT\",\"name\":\"Doe\",\"firstName\":\"John\",\"jobTitle\":\"CEO\",\"email\":\"john.doe@solidarity.com\",\"phoneNumber\":\"0123456789\"},{\"contactType\":\"TECHNICAL_CONTACT\",\"name\":\"forest\",\"firstName\":\"Jim\",\"jobTitle\":\"CTO\",\"email\":\"jim.forest@solidarity.com\",\"phoneNumber\":\"0123456789\"}]}],\"sort\":[{\"direction\":\"ASC\",\"property\":\"name\",\"ignoreCase\":false,\"nullHandling\":\"NATIVE\",\"ascending\":true,\"descending\":false}]}",
+        "headers": {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*"
+        }
+      },
+      "uuid": "69928c1c-f19c-4b8f-acf9-370f05848a77",
+      "priority": 1
+    },
+    {
+      "id": "56b6e887-4b9d-4ccb-938d-2cf2ad32edea",
+      "request": {
+        "urlPattern": "/abc",
+        "method": "OPTIONS"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Allow": "GET, HEAD, OPTIONS, POST",
+          "Access-Control-Allow-Headers": "authorization",
+          "Access-Control-Allow-Methods": "OPTIONS, GET",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "close",
+          "Accept": "*/*",
+          "Content-Type": "text/plain"
+        }
+      },
+      "uuid": "56b6e887-4b9d-4ccb-938d-2cf2ad32edea",
+      "priority": 1
+    },
+    {
+      "id": "56b6e887-4b9d-4ccb-938d-2cf2ad32edea",
+      "request": {
+        "urlPath": "/abc",
+        "method": "POST"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Allow": "GET, HEAD, OPTIONS, POST",
+          "Access-Control-Allow-Headers": "authorization",
+          "Access-Control-Allow-Methods": "OPTIONS, GET",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "close",
+          "Accept": "*/*",
+          "Content-Type": "text/plain"
+        }
+      },
+      "uuid": "56b6e887-4b9d-4ccb-938d-2cf2ad32edea",
+      "priority": 1
+    },
+    {
+      "id": "69928c1c-f19c-4b8f-acf9-370f05848a77",
+      "request": {
+        "url": "/ghi",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"number\":0,\"size\":8,\"totalPages\":1,\"numberOfElements\":2,\"totalElements\":2,\"first\":true,\"last\":true,\"content\":[{\"id\":\"59b13f31fb7b7dcdeb0becfe\",\"ebaId\":\"U6J09R44\",\"name\":\"Linxo\",\"comments\":\"\",\"contact\":{\"email\":\"contact@linxo.com\",\"phoneNumber\":\"0102030405\",\"city\":\"PARIS\",\"addressLines\":[\"random line\",\"road 10\"],\"postCode\":\"4321\",\"country\":\"France\"},\"state\":{\"status\":\"ACTIVE\",\"monitored\":false},\"accreditations\":[\"AIS\",\"CIS\"],\"webSite\":\"abc.com\",\"nationalAccreditationData\":{\"nationalId\":\"abcid\",\"competentAuthorityName\":\"French registry\",\"competentAuthorityCountry\":\"France\",\"registrationDate\":\"2018-03-29\",\"accreditations\":[\"AIS\",\"CIS\"]},\"physicalContacts\":[{\"contactType\":\"BUSINESS_CONTACT\",\"name\":\"Doe\",\"firstName\":\"John\",\"jobTitle\":\"CEO\",\"email\":\"john.doe@solidarity.com\",\"phoneNumber\":\"0123456789\"},{\"contactType\":\"TECHNICAL_CONTACT\",\"name\":\"forest\",\"firstName\":\"Jim\",\"jobTitle\":\"CTO\",\"email\":\"jim.forest@solidarity.com\",\"phoneNumber\":\"0123456789\"}]},{\"id\":\"59b13f31fb7b7dceffsb0becfe\",\"ebaId\":\"657435234\",\"name\":\"Bankin\",\"comments\":\"\",\"contact\":{\"email\":\"contact@bankin.com\",\"phoneNumber\":\"0102030405\",\"city\":\"PARIS\",\"addressLines\":[\"random line\",\"road 10\"],\"postCode\":\"4321\",\"country\":\"France\"},\"state\":{\"status\":\"ACTIVE\",\"monitored\":false},\"accreditations\":[\"AIS\",\"CIS\"],\"webSite\":\"abc.com\",\"nationalAccreditationData\":{\"nationalId\":\"abcid\",\"competentAuthorityName\":\"French registry\",\"competentAuthorityCountry\":\"France\",\"registrationDate\":\"2018-03-29\",\"accreditations\":[\"AIS\",\"CIS\"]},\"physicalContacts\":[{\"contactType\":\"BUSINESS_CONTACT\",\"name\":\"Doe\",\"firstName\":\"John\",\"jobTitle\":\"CEO\",\"email\":\"john.doe@solidarity.com\",\"phoneNumber\":\"0123456789\"},{\"contactType\":\"TECHNICAL_CONTACT\",\"name\":\"forest\",\"firstName\":\"Jim\",\"jobTitle\":\"CTO\",\"email\":\"jim.forest@solidarity.com\",\"phoneNumber\":\"0123456789\"}]}],\"sort\":[{\"direction\":\"ASC\",\"property\":\"name\",\"ignoreCase\":false,\"nullHandling\":\"NATIVE\",\"ascending\":true,\"descending\":false}]}",
+        "headers": {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*"
+        }
+      },
+      "uuid": "69928c1c-f19c-4b8f-acf9-370f05848a77",
+      "priority": 1
+    },
+    {
+      "id": "69928c1c-f19c-4b8f-acf9-370f05848a77",
+      "request": {
+        "urlPathPattern": "/ghi",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"number\":0,\"size\":8,\"totalPages\":1,\"numberOfElements\":2,\"totalElements\":2,\"first\":true,\"last\":true,\"content\":[{\"id\":\"59b13f31fb7b7dcdeb0becfe\",\"ebaId\":\"U6J09R44\",\"name\":\"Linxo\",\"comments\":\"\",\"contact\":{\"email\":\"contact@linxo.com\",\"phoneNumber\":\"0102030405\",\"city\":\"PARIS\",\"addressLines\":[\"random line\",\"road 10\"],\"postCode\":\"4321\",\"country\":\"France\"},\"state\":{\"status\":\"ACTIVE\",\"monitored\":false},\"accreditations\":[\"AIS\",\"CIS\"],\"webSite\":\"abc.com\",\"nationalAccreditationData\":{\"nationalId\":\"abcid\",\"competentAuthorityName\":\"French registry\",\"competentAuthorityCountry\":\"France\",\"registrationDate\":\"2018-03-29\",\"accreditations\":[\"AIS\",\"CIS\"]},\"physicalContacts\":[{\"contactType\":\"BUSINESS_CONTACT\",\"name\":\"Doe\",\"firstName\":\"John\",\"jobTitle\":\"CEO\",\"email\":\"john.doe@solidarity.com\",\"phoneNumber\":\"0123456789\"},{\"contactType\":\"TECHNICAL_CONTACT\",\"name\":\"forest\",\"firstName\":\"Jim\",\"jobTitle\":\"CTO\",\"email\":\"jim.forest@solidarity.com\",\"phoneNumber\":\"0123456789\"}]},{\"id\":\"59b13f31fb7b7dceffsb0becfe\",\"ebaId\":\"657435234\",\"name\":\"Bankin\",\"comments\":\"\",\"contact\":{\"email\":\"contact@bankin.com\",\"phoneNumber\":\"0102030405\",\"city\":\"PARIS\",\"addressLines\":[\"random line\",\"road 10\"],\"postCode\":\"4321\",\"country\":\"France\"},\"state\":{\"status\":\"ACTIVE\",\"monitored\":false},\"accreditations\":[\"AIS\",\"CIS\"],\"webSite\":\"abc.com\",\"nationalAccreditationData\":{\"nationalId\":\"abcid\",\"competentAuthorityName\":\"French registry\",\"competentAuthorityCountry\":\"France\",\"registrationDate\":\"2018-03-29\",\"accreditations\":[\"AIS\",\"CIS\"]},\"physicalContacts\":[{\"contactType\":\"BUSINESS_CONTACT\",\"name\":\"Doe\",\"firstName\":\"John\",\"jobTitle\":\"CEO\",\"email\":\"john.doe@solidarity.com\",\"phoneNumber\":\"0123456789\"},{\"contactType\":\"TECHNICAL_CONTACT\",\"name\":\"forest\",\"firstName\":\"Jim\",\"jobTitle\":\"CTO\",\"email\":\"jim.forest@solidarity.com\",\"phoneNumber\":\"0123456789\"}]}],\"sort\":[{\"direction\":\"ASC\",\"property\":\"name\",\"ignoreCase\":false,\"nullHandling\":\"NATIVE\",\"ascending\":true,\"descending\":false}]}",
+        "headers": {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*"
+        }
+      },
+      "uuid": "69928c1c-f19c-4b8f-acf9-370f05848a77",
+      "priority": 1
+    },
+    {
+      "id": "69928c1c-f19c-4b8f-acf9-370f05848a77",
+      "request": {
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"number\":0,\"size\":8,\"totalPages\":1,\"numberOfElements\":2,\"totalElements\":2,\"first\":true,\"last\":true,\"content\":[{\"id\":\"59b13f31fb7b7dcdeb0becfe\",\"ebaId\":\"U6J09R44\",\"name\":\"Linxo\",\"comments\":\"\",\"contact\":{\"email\":\"contact@linxo.com\",\"phoneNumber\":\"0102030405\",\"city\":\"PARIS\",\"addressLines\":[\"random line\",\"road 10\"],\"postCode\":\"4321\",\"country\":\"France\"},\"state\":{\"status\":\"ACTIVE\",\"monitored\":false},\"accreditations\":[\"AIS\",\"CIS\"],\"webSite\":\"abc.com\",\"nationalAccreditationData\":{\"nationalId\":\"abcid\",\"competentAuthorityName\":\"French registry\",\"competentAuthorityCountry\":\"France\",\"registrationDate\":\"2018-03-29\",\"accreditations\":[\"AIS\",\"CIS\"]},\"physicalContacts\":[{\"contactType\":\"BUSINESS_CONTACT\",\"name\":\"Doe\",\"firstName\":\"John\",\"jobTitle\":\"CEO\",\"email\":\"john.doe@solidarity.com\",\"phoneNumber\":\"0123456789\"},{\"contactType\":\"TECHNICAL_CONTACT\",\"name\":\"forest\",\"firstName\":\"Jim\",\"jobTitle\":\"CTO\",\"email\":\"jim.forest@solidarity.com\",\"phoneNumber\":\"0123456789\"}]},{\"id\":\"59b13f31fb7b7dceffsb0becfe\",\"ebaId\":\"657435234\",\"name\":\"Bankin\",\"comments\":\"\",\"contact\":{\"email\":\"contact@bankin.com\",\"phoneNumber\":\"0102030405\",\"city\":\"PARIS\",\"addressLines\":[\"random line\",\"road 10\"],\"postCode\":\"4321\",\"country\":\"France\"},\"state\":{\"status\":\"ACTIVE\",\"monitored\":false},\"accreditations\":[\"AIS\",\"CIS\"],\"webSite\":\"abc.com\",\"nationalAccreditationData\":{\"nationalId\":\"abcid\",\"competentAuthorityName\":\"French registry\",\"competentAuthorityCountry\":\"France\",\"registrationDate\":\"2018-03-29\",\"accreditations\":[\"AIS\",\"CIS\"]},\"physicalContacts\":[{\"contactType\":\"BUSINESS_CONTACT\",\"name\":\"Doe\",\"firstName\":\"John\",\"jobTitle\":\"CEO\",\"email\":\"john.doe@solidarity.com\",\"phoneNumber\":\"0123456789\"},{\"contactType\":\"TECHNICAL_CONTACT\",\"name\":\"forest\",\"firstName\":\"Jim\",\"jobTitle\":\"CTO\",\"email\":\"jim.forest@solidarity.com\",\"phoneNumber\":\"0123456789\"}]}],\"sort\":[{\"direction\":\"ASC\",\"property\":\"name\",\"ignoreCase\":false,\"nullHandling\":\"NATIVE\",\"ascending\":true,\"descending\":false}]}",
+        "headers": {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*"
+        }
+      },
+      "uuid": "69928c1c-f19c-4b8f-acf9-370f05848a77",
+      "priority": 1
+    }
+  ],
+  "meta": {
+    "total": 2
+  }
+}

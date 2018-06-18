@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="row">
+
+    <aside class="col-xs-12 col-sm-6 col-md-4 col-lg-3 bg-faded sidebar">
+      <wui-mock-list (selectedMock)="onSelected($event)"></wui-mock-list>
+    </aside>
+
+    <main class="col-xs-12 col-sm-6 offset-sm-6 col-md-8 offset-md-4 col-lg-9 offset-lg-3 main">
+      <wui-mock-details *ngIf="selectedMock" [mock]="selectedMock"></wui-mock-details>
+    </main>
+
+  </div>
+</div>

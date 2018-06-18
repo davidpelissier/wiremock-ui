@@ -1,0 +1,10 @@
+<ul class="nav nav-pills flex-column">
+  <li class="nav-item" (click)="selectMock(mock)" *ngFor="let mock of mocks">
+    <div href="#" class="nav-link"
+         [ngClass]="mock.id === selectedMockId ? 'nav-link-active nav-link-'+ mock.request.method.toLowerCase() : ''">
+      <span class="{{ 'badge badge-'+ mock.request.method.toLowerCase() }}">{{ mock.request.method }}</span>
+      {{ mock.request.uri }}
+    </div>
+  </li>
+</ul>
+

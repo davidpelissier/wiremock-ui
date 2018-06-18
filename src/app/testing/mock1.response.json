@@ -1,0 +1,22 @@
+{
+  "id": "56b6e887-4b9d-4ccb-938d-2cf2ad32ubtg",
+  "request": {
+    "urlPathPattern": "/abc",
+    "method": "PUT",
+    "uri": "/abc"
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Allow": "GET, HEAD, OPTIONS, POST",
+      "Access-Control-Allow-Headers": "authorization",
+      "Access-Control-Allow-Methods": "OPTIONS, GET",
+      "Access-Control-Allow-Origin": "*",
+      "Connection": "close",
+      "Accept": "*/*",
+      "Content-Type": "text/plain"
+    }
+  },
+  "uuid": "56b6e887-4b9d-4ccb-938d-2cf2ad32ubtg",
+  "priority": 1
+}

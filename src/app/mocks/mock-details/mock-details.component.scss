@@ -1,0 +1,101 @@
+@import '../../shared/styles/variables';
+
+.pane {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - #{$navbar-height});
+}
+
+.request {
+  border-right: 1px solid $hl-md;
+}
+
+.request,
+.response {
+  border-bottom: 1px solid $hl-md;
+  height: 82px;
+  padding: 16px;
+}
+
+.mock {
+  flex: 1;
+}
+
+.title {
+  color: $hl;
+  margin-bottom: .5em;
+}
+
+.tag {
+  background: var(--hl-sm);
+  border: 1px solid rgba(0, 0, 0, .07);
+  box-sizing: border-box;
+  color: $hl;
+  display: inline-block;
+  line-height: 1em;
+  margin-right: 1em;
+  padding: 5px 8px;
+  text-align: center;
+}
+
+.tag-get {
+  background-color: $color-tag-surprise;
+  color: $color-font-surprise;
+  text-shadow: 0 0 .05em $color-surprise;
+}
+
+.tag-post,
+[class^="tag tag-2"] {
+  background-color: $color-tag-success;
+  color: $color-font-success;
+  text-shadow: 0 0 .05em $color-success;
+}
+
+.tag-put,
+[class^="tag tag-4"] {
+  background-color: $color-tag-warning;
+  color: $color-font-warning;
+  text-shadow: 0 0 .05em $color-warning;
+}
+
+.tag-patch {
+  background-color: $color-tag-notice;
+  color: $color-font-notice;
+  text-shadow: 0 0 .05em $color-notice;
+}
+
+.tag-delete,
+[class^="tag tag-5"] {
+  background-color: $color-tag-danger;
+  color: $color-font-danger;
+  text-shadow: 0 0 .05em $color-danger;
+}
+
+.tag-options,
+[class^="tag tag-3"] {
+  background-color: $color-tag-info;
+  color: $color-font-info;
+  text-shadow: 0 0 .05em $color-info;
+}
+
+.tag-head {
+  background-color: $color-boring;
+  color: $color-font-info;
+  text-shadow: 0 0 .05em $color-boring;
+}
+
+.tag-post, [class^="tag-2"] {
+  background-color: $color-tag-success;
+  color: $color-font-success;
+  text-shadow: 0 0 .05em $color-success;
+}
+
+code {
+  height: 100%;
+  padding: 16px;
+}
+
+pre {
+  height: 100%;
+  margin-bottom: 0;
+}

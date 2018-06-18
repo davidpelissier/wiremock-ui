@@ -1,0 +1,11 @@
+@import './app/shared/styles/variables';
+@import './app/shared/styles/open-iconic.font';
+@import './app/shared/styles/typography';
+@import './app/shared/styles/scrollbars';
+
+body {
+  background-color: $color-main-bg;
+  font-size: $font-size-base;
+
+  padding-top: $navbar-height;
+}

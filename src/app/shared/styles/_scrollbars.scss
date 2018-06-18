@@ -1,0 +1,23 @@
+@import 'variables';
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $hl-md;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $hl-xs;
+}
+
+::selection {
+  background-color: $hl-md;
+}
