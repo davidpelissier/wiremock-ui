@@ -1,5 +1,7 @@
 # WiremockUi
-[![Build Status](https://travis-ci.org/davidpelissier/wiremock-ui.svg?branch=master)](https://travis-ci.org/davidpelissier/wiremock-ui)
+
+[![Travis](https://img.shields.io/travis/davidpelissier/wiremock-ui.svg?style=flat-square)](https://travis-ci.org/davidpelissier/wiremock-ui)
+[![Coveralls github](https://img.shields.io/coveralls/github/davidpelissier/wiremock-ui.svg?style=flat-square)](https://coveralls.io/github/davidpelissier/wiremock-ui)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
 

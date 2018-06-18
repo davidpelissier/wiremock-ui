@@ -27,7 +27,10 @@ before_script:
   - ng build
 
 script:
-  - ng test --watch=false
+  - ng test --code-coverage --watch=false
+
+after_script:
+  - "cat ./coverage/lcov.info | coveralls"
 
 notifications:
   email:
